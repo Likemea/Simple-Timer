@@ -1,25 +1,40 @@
-# Simple Timer
+# 🕰️ Urch Timer
+"Because your brain is bad at counting, but my code isn't"
 
-Simple Timer is a basic timer application written in Python. It allows you to set a timer for a specified number of minutes and counts down to zero. When the timer expires, it provides a notification that the timer is up.
+Urch Pro Timer is a modern and object-oriented refactor of a legacy Python script. It’s designed to help you track time without the bloat of web-based timers or the "plastic" feel of AI shovelware.
 
-## Features
+🚀 Why
+The original version was a relic from 2023. This version (v2.0) introduces a clean OOP architecture, proper state management, and UI that doesn't look like it was designed in Windows 95.
 
-- Set a timer for a specified number of minutes.
-- Counts down in minutes and seconds.
-- Provides a notification when the timer reaches zero.
+✨ What
+OOP Core: Completely refactored from global-variable spaghetti to a clean Pythonic Class.
 
-## Usage
+Safety First: Robust input validation, it won't crash if you accidentally type "bacon" instead of "25".
 
-1. Download the standalone executable for Windows from the [Releases](https://github.com/yourusername/simple-timer/releases) section.
-2. Run the executable.
-3. Enter the number of minutes for the timer.
-4. The timer will start counting down, displaying minutes and seconds.
-5. When the timer reaches zero, a notification will indicate that the timer is up.
+Themed UI: Uses ttk widgets for a native look and feel.
 
-## Updates
+Pause & Reset: Hard-to-find features in the original that are now front and center.
 
-This is a basic version of the Simple Timer. Future updates may include additional features and improvements based on user feedback and contributions.
+🛠️ Quick Start
+Requirements
+Python 3.8+
 
-## License
+Tkinter (usually comes with Python)
 
-This project is licensed under the [MIT License](LICENSE).
+Running the App
+Bash
+python timer.py
+How to use
+Enter your focus time in minutes (default is 25 for the Pomodoro fans).
+
+Hit Start and get to work.
+
+Use Reset if you get distracted by a Discord notification.
+
+📈 Dev Roadmap
+[x] Convert to OOP Structure
+
+[ ] Implement System-level Notifications
+
+📜 License
+This project is licensed under the MIT License
